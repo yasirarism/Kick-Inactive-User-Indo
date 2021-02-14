@@ -1,0 +1,19 @@
+{
+
+  "name": "Kick Inactive Member Bot",
+
+  "description": "A Telegram Bot For Kick Inactive Member",
+
+  "keywords": [
+
+    "telegram"
+
+  ],
+
+  "repository": "https://github.com/yasirarism",
+
+  "success_url": "https://t.me/YMovieZ",
+
+  "website": "https://www.yasir.my.id"
+
+}
