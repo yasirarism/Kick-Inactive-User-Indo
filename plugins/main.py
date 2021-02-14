@@ -16,7 +16,7 @@ def inkick(client, message):
 
   user = client.get_chat_member(message.chat.id, message.from_user.id)
 
-  if user.status == "creator":
+  if user.status in ('administrator', 'creator'):
 
     if len(message.command) > 1:
 
@@ -76,7 +76,7 @@ def dkick(client, message):
 
   user = client.get_chat_member(message.chat.id, message.from_user.id)
 
-  if user.status == "creator":
+  if user.status in ('administrator', 'creator'):
 
     sent_message = message.reply_text(Messages.START_KICK)
 
