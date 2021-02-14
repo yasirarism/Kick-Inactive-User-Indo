@@ -14,11 +14,11 @@ class Config():
 
   else:
 
-    BOT_TOKEN = ""
+    BOT_TOKEN = "1655330757:AAE_JQ8iEXRIgYBaMRsx1cH_0g_hfKj7b6c"
 
-    APP_ID = ""
+    APP_ID = "1046625"
 
-    API_HASH = ""
+    API_HASH = "c68afc924b92d73ce27708b155f1e5b4"
 
 class Messages():
 
@@ -26,51 +26,51 @@ class Messages():
 
         ".",
 
-        "**Kick Inactive Members**\n__Kick incative members from group. Add me as admin with ban users permission in group send the /inkick command with required arguments and i will kick members from group.\nUse /instatus to check current status of chat members.\n\nSee next page for command information & usages.__",
+        "**Kick Member Tidak Aktif**\n__Kick member tidak aktif dari grup. Tambahkan saya sebagai admin dengan perijinan ban user lalu kirim perintah /inkick dengan argumen yang sesuai dan saya akan menendang pengguna dari grup.\nGunakan /instatus untuk mengecek status chat member.\n\nLihat halaman selanjutnya untuk informasi perintah & penggunaan.__",
 
         
 
-        "**Command**\n__/instatus - Get current members status.\n/dkick - Kick all deleted accounts from group.\n/inkick (arguments) - Kick inactive members from group.\nUse arguments with caution and seperated by space.__\n\n**Arguments -** __User’s Last Seen & Online status. Can be one of the following: “online”, user is online right now. “offline”, user is currently offline. “recently”, user with hidden last seen time who was online between 1 second and 2-3 days ago. “within_week”, user with hidden last seen time who was online between 2-3 and seven days ago. “within_month”, user with hidden last seen time who was online between 6-7 days and a month ago. “long_time_ago”, blocked user or user with hidden last seen time who was online more than a month ago. None, for bots.__\n\nSee next page for examples.",
+        "**Perintah**\n__/instatus - Dapatkan status member saat ini.\n/dkick - Kick semua deleted account dari grup.\n/inkick (argumen) - Keluarkan member tidak aktif dari grup.\nGunakan argumen dengan hati hati dan dipisahkan dengan spasi.__\n\n**Argumen -** __User’s Last Seen & Online status. Can be one of the following: “online”, user is online right now. “offline”, user is currently offline. “recently”, user with hidden last seen time who was online between 1 second and 2-3 days ago. “within_week”, user with hidden last seen time who was online between 2-3 and seven days ago. “within_month”, user with hidden last seen time who was online between 6-7 days and a month ago. “long_time_ago”, blocked user or user with hidden last seen time who was online more than a month ago. None, for bots.__\n\nLihat halaman selanjutnya untuk contoh.",
 
         
 
-        "**Examples**\n```/inkick within_month long_time_ago``` - __To kick users who are offline for more than 6-7 days.__\n\n```/inkick long_time_ago``` - __To kick members who are offline for more than a month and Deleted Accounts.__\n\n```/dkick``` - __To kick deleted accounts.__",
+        "**Contoh**\n```/inkick within_month long_time_ago``` - __Untuk kick user yang tidak aktif lebih dari 6-7 hari.__\n\n```/inkick long_time_ago``` - __Untuk mengeluarkan member yang tidak aktif selama sebulan dan Deleted Accounts.__\n\n```/dkick``` - __Untuk mengeluarkan deleted accounts.__",
 
         
 
-        "**Developer - @viperadnan**"
+        "**Diterjemahkan dan dimodifikasi oleh - @YasirArisM\nCredit - @viperadnan**"
 
         ]
 
-      START_MSG = "**Hey [{}](tg://user?id={})**\n__I can kick inactive members from group.\nLearn more at /help__"
+      START_MSG = "**Halo [{}](tg://user?id={})**\n__Aku bisa mengeluarkan member yang tidak aktif dari grup.\nSelengkapnya di /help__"
 
       
 
-      CREATOR_REQUIRED = "❗ **You have to be the group creator to do that.**"
+      CREATOR_REQUIRED = "❗ **Kamu harus jadi pembuat grup untuk melakukan itu.**"
 
       
 
-      INPUT_REQUIRED = "❗ **Arguments Required**\n__See /help in personal message for more information.__"
+      INPUT_REQUIRED = "❗ **Argumen dibutuhkan**\n__Lihbat /help di pesan pribadi untuk informasi lebih lanjut.__"
 
       
 
-      KICKED = "✔️ **Successfully Kicked {} members according to the arguments provided.**"
+      KICKED = "✔️ **Berhasil membersihkan {} pengguna berdasarkan argumen yang diberikan.**"
 
       
 
-      START_KICK = "🚮**Removing inactive members this may take a while...**"
+      START_KICK = "🚮**Menghapus pengguna tidak aktif mungkin butuh waktu beberapa saat...**"
 
       
 
-      ADMIN_REQUIRED = "❗**I am not an admin here**\n__Leaving this chat, add me again as admin with ban user permission.__"
+      ADMIN_REQUIRED = "❗**Saya bukan admin disini**\n__Pergi meninggalkan chat ini seperti saat dia meninggalkan aku, tambahkan aku sebagai admin dengan perijinan ban user.__"
 
       
 
-      DKICK = "✔️ **Kicked {} Deleted Accounts Successfully.**"
+      DKICK = "✔️ **Berhasil membersihkan {} Deleted Accounts.**"
 
       
 
-      FETCHING_INFO = "**Collecting users information...**"
+      FETCHING_INFO = "**Mengumpulkan informasi user...**"
 
       
 
