@@ -46,7 +46,7 @@ class Messages():
 
       
 
-      CREATOR_REQUIRED = "❗ **Kamu harus jadi pembuat grup untuk melakukan itu.**"
+      CREATOR_REQUIRED = "❗ **Kamu harus jadi pembuat grup atau admin untuk melakukan itu.**"
 
       
 
