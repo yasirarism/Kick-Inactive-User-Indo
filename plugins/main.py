@@ -11,7 +11,6 @@ from pyrogram.errors.exceptions.forbidden_403 import ChatWriteForbidden
 from pyrogram.errors.exceptions.bad_request_400 import ChatAdminRequired, UserAdminInvalid
 
 @Client.on_message(filters.incoming & ~filters.private & filters.command(['inkick']))
-
 def inkick(client, message):
 
   user = client.get_chat_member(message.chat.id, message.from_user.id)
@@ -28,7 +27,10 @@ def inkick(client, message):
 
       for member in client.iter_chat_members(message.chat.id):
 
-        if member.user.status in input_str and not member.status in ('administrator', 'creator'):
+        if member.user.status in input_str and member.status not in (
+            'administrator',
+            'creator',
+        ):
 
           try:
 
@@ -71,7 +73,6 @@ def inkick(client, message):
     sent_message.delete()
 
 @Client.on_message(filters.incoming & ~filters.private & filters.command(['dkick']))
-
 def dkick(client, message):
 
   user = client.get_chat_member(message.chat.id, message.from_user.id)
@@ -84,7 +85,10 @@ def dkick(client, message):
 
     for member in client.iter_chat_members(message.chat.id):
 
-      if member.user.is_deleted and not member.status in ('administrator', 'creator'):
+      if member.user.is_deleted and member.status not in (
+          'administrator',
+          'creator',
+      ):
 
         try:
 
